@@ -1,0 +1,64 @@
+.container{
+    background-color: grey;
+    padding: 10px;
+position: relative;
+left: calc(50% - 200px);
+    width: 375px;
+    border-radius: 10px;
+}
+.btnAdd{
+    border: none;
+    padding: 7px;
+    border-radius: 80px;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.txt{
+    height: 25px;
+    width: 280px;
+    border: none;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.txt:focus{
+    background-color: white;
+}
+.btndelete{
+    border: none;
+    padding: 5px;
+    border-radius: 80px;
+    background-color: red;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+position: absolute;
+right: 10px;
+}
+
+.h{
+    font-size: larger;
+
+background-color:rgb(65, 67, 71);
+padding: 5px;
+color: aliceblue;
+border-radius: 10px;
+padding: 10px;
+width: 200px;
+
+}
+.secdiv{
+    box-sizing: border-box;
+    background-color: orange;
+    width: 400px;
+    position: relative;
+    padding: 20px;
+    margin-top:20px;
+    left: calc(50% - 200px);
+    border-radius: 10px;
+}
+
+
